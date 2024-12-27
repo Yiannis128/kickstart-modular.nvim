@@ -38,6 +38,7 @@ key_map('n', '<A-Left>', '<Cmd>BufferPrevious<CR>')
 key_map('n', '<A-Right>', '<Cmd>BufferNext<CR>')
 key_map('n', '<A-z>', '<Cmd>BufferPin<CR>')
 key_map('n', '<A-x>', '<Cmd>BufferClose<CR>')
+key_map('n', '<A-X>', '<Cmd>BufferClose!<CR>')
 key_map('n', '<A-Down>', '<Cmd>BufferMovePrevious<CR>')
 key_map('n', '<A-Up>', '<Cmd>BufferMoveNext<CR>')
 

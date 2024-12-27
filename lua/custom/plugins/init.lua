@@ -4,7 +4,7 @@
 -- See the kickstart.nvim README for more information
 
 return {
-  { 'nvim-tree/nvim-web-devicons', opts = {} },
+  { 'nvim-tree/nvim-web-devicons', opts = {}, enable = true },
   {
     'romgrk/barbar.nvim',
     dependencies = {
@@ -17,6 +17,12 @@ return {
     opts = {
       -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
       animation = true,
+      -- Disable highlighting alternate buffers
+      highlight_alternate = false,
+      -- Disable highlighting file icons in inactive buffers
+      highlight_inactive_file_icons = false,
+      -- Enable highlighting visible buffers
+      highlight_visible = false,
       -- insert_at_start = true,
       -- …etc.
     },

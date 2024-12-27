@@ -3,7 +3,7 @@
 Servers = {
   clangd = {},
   -- gopls = {},
-  pyright = {},
+  basedpyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
@@ -14,4 +14,8 @@ Servers = {
       telemetry = { enable = false },
     },
   },
+  markdownlint = {},
+  html = {},
+  cssls = {},
+  eslint = {},
 }
